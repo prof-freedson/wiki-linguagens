@@ -4,7 +4,10 @@ import LanguageList from "./components/LanguageList";
 
 export default function Home() {
   const languages = [
-    { name: "Dart", route: "pages/dart" },
+    { name: "dart", route: "pages/dart" },
+    { name: "ruby", route: "pages/dart/ruby" },
+    // Adicione mais linguagens aqui no futuro
+    // Adicione mais linguagens aqui no futuro
     // Adicione mais linguagens aqui no futuro
   ];
 
