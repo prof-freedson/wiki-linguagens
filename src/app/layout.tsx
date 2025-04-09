@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import './globals.css'
 
 export default function RootLayout({
   children,
@@ -8,7 +9,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-gray-50 text-gray-800 font-sans">
+      <body className="flex flex-col h-screen bg-gray-50 text-gray-800 font-sans">
         <Header />
         <main className="container mx-auto p-6">{children}</main>
         <Footer />
