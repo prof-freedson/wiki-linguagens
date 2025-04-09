@@ -6,7 +6,7 @@ export default function Home() {
   const languages = [
 
     { name: "Dart", route: "pages/dart" },
-    { name: "Assembly", route: "pages/assembly"}
+    { name: "Assembly", route: "pages/assembly"},
     { name: "SQL", route: "pages/sql" },
     { name: "Ruby", route: "pages/ruby" },
     // Adicione mais linguagens aqui no futuro
