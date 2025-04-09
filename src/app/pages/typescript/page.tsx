@@ -5,7 +5,7 @@ const TypeScriptPage: React.FC = () => {
     <div className="p-6 bg-gray-100 min-h-screen">
       <img src="https://careers.miidas.co.jp/assets/img/tech/img_logo_ts.png"
       className="mx-auto mb-6"
-      alt="Logo TypeScript" />
+      alt="Logo Linguagem TypeScript" />
       <h1 className="text-4xl font-bold text-center text-blue-600 mb-6">
         TypeScript
       </h1>
