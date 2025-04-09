@@ -11,6 +11,7 @@ export default function Home() {
     // Adicione mais linguagens aqui no futuro
     // Adicione mais linguagens aqui no futuro
     // Adicione mais linguagens aqui no futuro
+    { name: "Kotlin", route: "pages/kotlin" },
   ];
 
   return (
