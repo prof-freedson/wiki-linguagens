@@ -7,11 +7,11 @@ export default function Home() {
 
     { name: "Dart", route: "pages/dart" },
     { name: "Assembly", route: "pages/assembly"},
+    { name: "TypeScript", route: "pages/typescript"},
+    { name: "PHP", route: "pages/php" },
     { name: "SQL", route: "pages/sql" },
     { name: "Ruby", route: "pages/ruby" },
-    // Adicione mais linguagens aqui no futuro
-    // Adicione mais linguagens aqui no futuro
-    // Adicione mais linguagens aqui no futuro
+    { name: "Kotlin", route: "pages/kotlin" },
   ];
 
   return (
