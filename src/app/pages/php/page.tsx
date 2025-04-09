@@ -3,6 +3,9 @@ import React from "react";
 const PhpPage: React.FC = () => {
   return (
     <div className="p-6 bg-gray-100 min-h-screen">
+        <div className="flex items-center justify-center">
+        <img src="https://www.pngarts.com/files/6/PHP-Logo-Transparent-Image.png" className=" h-40 " alt="" />
+        </div>
       <h1 className="text-4xl font-bold text-center text-blue-600 mb-6">
         php
       </h1>
