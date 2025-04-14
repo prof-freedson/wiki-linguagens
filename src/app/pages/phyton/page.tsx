@@ -3,6 +3,11 @@ import React from "react";
 const Phyton: React.FC = () => {
   return (
     <div className="p-6 bg-gray-100 min-h-screen">
+      <div className="flex items-center justify-center">
+      <img src="https://lginfo.com.br/site/wp-content/uploads/2023/10/Python-Symbol.png" alt="" height="50" width="150" />
+      </div>
+        
+        
       <h1 className="text-4xl font-bold text-center text-blue-600 mb-6">
         Phyton
       </h1>
