@@ -10,6 +10,8 @@ const SwiftPage: React.FC = () => {
       <section className="mb-6">
         <h2 className="text-2xl font-semibold text-gray-800 mb-2">História</h2>
         <p className="text-gray-700 text-justify">
+        hello!
+
         Antecedentes e Desenvolvimento Inicial (2010-2014):
 
 Antes da Swift, a Apple utilizava o Objective-C para o desenvolvimento de suas plataformas. Embora poderosa e amplamente utilizada, a sintaxe do Objective-C era considerada complexa e antiquada.
