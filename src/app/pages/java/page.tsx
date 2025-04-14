@@ -1,19 +1,15 @@
 import React from "react";
 
-const DartPage: React.FC = () => {
+const JavaPage: React.FC = () => {
   return (
     <div className="p-6 bg-gray-100 min-h-screen">
       <h1 className="text-4xl font-bold text-center text-blue-600 mb-6">
-        Dart
+        Java
       </h1>
       <section className="mb-6">
         <h2 className="text-2xl font-semibold text-gray-800 mb-2">História</h2>
         <p className="text-gray-700">
-          Dart é uma linguagem de programação criada pela Google em 2011. Ela
-          foi projetada para ser uma linguagem moderna, eficiente e fácil de
-          usar, com foco no desenvolvimento de aplicações web, móveis e de
-          desktop. Dart ganhou popularidade principalmente por ser a base do
-          framework Flutter, usado para criar interfaces de usuário nativas.
+          A história da linguagem de programação Java começou em junho de 1991 na Sun Microsystems. Uma pequena equipe de engenheiros, conhecida como o "Green Team" (Time Verde) e liderada por James Gosling, iniciou um projeto com o objetivo de desenvolver uma linguagem para dispositivos eletrônicos de consumo..
         </p>
       </section>
       <section className="mb-6">
@@ -47,4 +43,4 @@ const DartPage: React.FC = () => {
   );
 };
 
-export default DartPage;
+export default JavaPage;
