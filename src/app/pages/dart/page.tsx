@@ -4,7 +4,7 @@ const DartPage: React.FC = () => {
   return (
     <div className="p-6 bg-gray-100 min-h-screen">
       <h1 className="text-4xl font-bold text-center text-blue-600 mb-6">
-        Dart
+        JavaScript
       </h1>
       <section className="mb-6">
         <h2 className="text-2xl font-semibold text-gray-800 mb-2">História</h2>

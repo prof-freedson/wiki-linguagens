@@ -1,10 +1,11 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Hero from "./components/Hero";
 import LanguageList from "./components/LanguageList";
 
 export default function Home() {
   const languages = [
     { name: "Dart", route: "pages/dart" },
+    { name: "javascript", route: "pages/javascript" },
     // Adicione mais linguagens aqui no futuro
   ];
 
