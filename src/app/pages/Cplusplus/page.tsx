@@ -7,7 +7,7 @@ const CplusplusPage: React.FC = () => {
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" className="h-20" alt=""/>
       </div>
       <h1 className="text-4xl font-bold text-center text-blue-600 mb-6">
-        C++
+        C++ oi
       </h1>
       <section className="mb-6">
         <h2 className="text-2xl font-semibold text-gray-800 mb-2">História</h2>
