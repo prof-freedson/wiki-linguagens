@@ -6,6 +6,7 @@ export default function Home() {
   const languages = [
     { name: "Dart", route: "pages/dart" },
     // Adicione mais linguagens aqui no futuro
+    { name: "C#", route: "pages/csharp" },
   ];
 
   return (
