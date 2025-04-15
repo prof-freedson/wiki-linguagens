@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Hero from "./components/Hero";
 import LanguageList from "./components/LanguageList";
 
@@ -6,6 +6,7 @@ export default function Home() {
   const languages = [
     { name: "Java", route: "pages/java" },
     { name: "Dart", route: "pages/dart" },
+    { name: "JavaScript", route: "pages/javascript" },
     { name: "Rust", route: "pages/rust" },
     { name: "C#", route: "pages/csharp" },
     { name: "Phyton", route: "pages/phyton" },
