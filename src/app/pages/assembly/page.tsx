@@ -1,10 +1,12 @@
 import React from "react";
+import { languages } from "@/languages";
 
 const AssemblyPage: React.FC = () => {
+    const assembly = languages.find((lang) => lang.name === "Assembly");
     return (
         <div className="p-6 bg-gray-100 min-h-screen">
-            <div className="flex items-center justify-center">
-                <img src="https://user-images.githubusercontent.com/103866722/194773833-8571f323-4fa8-4036-a51c-57b9d29c683b.svg" className="h-20" alt="" />
+            <div className="flex items-center justify-center object-cover">
+                <img className="w-28 h-28 object-contain" src={assembly?.image} alt="" />
             </div>
             <h1 className="text-4xl font-bold text-center text-blue-600 mb-6">
                 Assembly

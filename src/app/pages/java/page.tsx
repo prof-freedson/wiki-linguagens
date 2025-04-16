@@ -1,8 +1,14 @@
+import { languages } from "@/languages";
 import React from "react";
 
 const JavaPage: React.FC = () => {
+  const java = languages.find((lang) => lang.name === "Java");
+
   return (
     <div className="p-6 bg-gray-100 min-h-screen">
+      <div className="flex items-center justify-center object-cover">
+                <img className="w-28 h-28 object-contain" src={java?.image} alt="" />
+            </div>
       <h1 className="text-4xl font-bold text-center text-blue-600 mb-6">
         Java
       </h1>

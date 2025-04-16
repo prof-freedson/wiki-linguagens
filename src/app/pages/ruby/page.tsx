@@ -1,8 +1,14 @@
+import { languages } from "@/languages";
 import React from "react";
  
  const RubyPage: React.FC = () => {
+      const ruby = languages.find((lang) => lang.name === "Ruby");
+  
    return (
      <div className="p-6 bg-gray-100 min-h-screen">
+      <div className="flex items-center justify-center object-cover">
+                <img className="w-28 h-28 object-contain" src={ruby?.image} alt="" />
+            </div>
        <h1 className="text-4xl font-bold text-center text-blue-600 mb-6">
          Ruby
        </h1>

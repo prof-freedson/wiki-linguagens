@@ -1,17 +1,15 @@
+import { languages } from "@/languages";
 import React from "react";
 
 const KotlinPage: React.FC = () => {
+  const kotlin = languages.find((lang) => lang.name === "Kotlin");
+  
   return (
     <div className="p-6 bg-gray-100 min-h-screen">
+      <div className="flex items-center justify-center object-cover">
+                <img className="w-28 h-28 object-contain" src={kotlin?.image} alt="" />
+            </div>
       <h1 className="text-4xl font-bold text-center text-blue-600 mb-6">
-        {/* Center the image */}
-        <div className="flex justify-center mb-4">
-          <img
-            src="https://appmaster.io/api/_files/bLzbyrE3kokyk9p7QthYmA/download/"
-            alt="imagem kotlin"
-            className="w-32 h-32 object-contain"
-          />
-        </div>
         Kotlin
       </h1>
       <section className="mb-6">

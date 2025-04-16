@@ -1,10 +1,13 @@
 import React from "react";
+import { languages } from "@/languages";
 
 const DartPage: React.FC = () => {
+    const dart = languages.find((lang) => lang.name === "Dart");
+
     return (
         <div className="p-6 bg-gray-100 min-h-screen">
             <div className="flex items-center justify-center object-cover">
-                <img className="w-20 h-20" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Dart-logo.png" alt="" />
+                <img className="w-28 h-28 object-contain" src={dart?.image} alt="" />
             </div>
             <h1 className="text-4xl font-bold text-center text-blue-600 mb-6">
                 Dart
